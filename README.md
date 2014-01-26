@@ -1,10 +1,10 @@
-
 SimulateKeyboard
 =============
 
 
 It doesn't contain whole source.
-I will add whole later.
+
+I will add it later.
 
 
 Simulate keyboard library for iOS
@@ -20,6 +20,7 @@ refer to main.mm (skeyboard; command line tool)
 Keycodes
 ----
 same as keycodes for BeeKeyboard
+
 http://api.iolate.kr/beekeyboard/headers/BeeKeycode.h
 
 Example
@@ -33,6 +34,6 @@ Copy (Cmd + C):
 ```sh
 simulateKeyboardEvent(7, 231, 1);
 simulateKeyboardEvent(7, 6, 1);
-simulateKeyboardEvent(7, 6, 1);
+simulateKeyboardEvent(7, 6, 0);
 simulateKeyboardEvent(7, 231, 0);
 ```
