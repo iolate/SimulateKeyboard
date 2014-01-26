@@ -1,0 +1,9 @@
+include theos/makefiles/common.mk
+
+TOOL_NAME = skeyboard
+skeyboard_FILES = main.mm
+skeyboard_FRAMEWORKS = UIKit
+skeyboard_INSTALL_PATH = /usr/bin/
+skeyboard_LDFLAGS = -lsimulatekeyboard
+
+include $(THEOS_MAKE_PATH)/tool.mk
