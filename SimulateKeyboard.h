@@ -6,6 +6,10 @@
  *
  *  2014. Jan. 26.
  *
+ *  Keycode header: http://api.iolate.kr/beekeyboard/headers/BeeKeycode.h
+ *
+ *  https://github.com/iolate/SimulateKeyboard
+ *
  */
 
 
